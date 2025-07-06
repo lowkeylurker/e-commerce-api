@@ -1,5 +1,5 @@
 import { WHITELIST_DOMAINS } from '~/utils/constants'
-import { env } from '~/config/environment'
+import { env } from '~/configs/mongodb'
 import { StatusCodes } from 'http-status-codes'
 import ApiError from '~/utils/ApiError'
 

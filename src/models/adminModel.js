@@ -1,6 +1,6 @@
 import Joi from 'joi'
 import { ObjectId } from 'mongodb'
-import { GET_DB } from '~/config/mongodb'
+import { GET_DB } from '~/configs/mongodb'
 import { ACCOUNT_ROLE } from '~/utils/constants'
 import { pickUser } from '~/utils/formatters'
 import {

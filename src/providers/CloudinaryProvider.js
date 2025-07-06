@@ -1,5 +1,5 @@
 import cloudinary from 'cloudinary'
-import { env } from '~/config/environment'
+import { env } from '~/configs/environment'
 import streamifier from 'streamifier'
 
 const cloudinaryV2 = cloudinary.v2

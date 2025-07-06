@@ -1,5 +1,5 @@
 import crypto from 'crypto'
-import { env } from '~/config/environment'
+import { env } from '~/configs/mongodb'
 
 export const pagingSkipValue = (page, itemsPerPage) => {
   if (!page || !itemsPerPage) return 0

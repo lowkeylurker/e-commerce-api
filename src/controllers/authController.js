@@ -1,7 +1,7 @@
 import { StatusCodes } from 'http-status-codes'
 import ms from 'ms'
 import { sessionModel } from '~/models/sessionModel'
-import { authService } from '~/services/authService'
+import { authService } from '~/services/auth.service'
 import ApiError from '~/utils/ApiError'
 
 const login = async (req, res, next) => {

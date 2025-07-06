@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-catch */
 import Joi from 'joi'
 import { ObjectId } from 'mongodb'
-import { GET_DB } from '~/config/mongodb'
+import { GET_DB } from '~/configs/mongodb'
 
 const OTP_COLLECTION_NAME = 'otps'
 const OTP_COLLECTION_SCHEMA = Joi.object({

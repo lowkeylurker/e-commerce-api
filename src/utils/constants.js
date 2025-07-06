@@ -1,4 +1,4 @@
-import { env } from '~/config/environment'
+import { env } from '~/configs/environment'
 
 export const WHITELIST_DOMAINS = [
   'http://localhost:5173',

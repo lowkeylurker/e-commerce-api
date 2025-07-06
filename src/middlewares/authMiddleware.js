@@ -1,5 +1,5 @@
 import { StatusCodes } from 'http-status-codes'
-import { env } from '~/config/environment'
+import { env } from '~/configs/mongodb'
 import { buyerModel } from '~/models/buyerModel'
 import { sellerModel } from '~/models/sellerModel'
 import { sessionModel } from '~/models/sessionModel'

@@ -1,4 +1,4 @@
-import { env } from '~/config/environment'
+import { env } from '~/configs/mongodb'
 import authorizedAxiosInstance from '~/utils/authorizedAxios'
 
 export const createGHNOrder = async (data) => {
